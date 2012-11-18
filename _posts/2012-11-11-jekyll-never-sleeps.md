@@ -5,6 +5,28 @@ title: "Jekyll Never Sleeps"
 
 # Putting Hyde to bed.
 
+    (function() {
+        var method;
+        var noop = function noop() {};
+        var methods = [
+            'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
+            'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
+            'markTimeline', 'profile', 'profileEnd', 'table', 'time', 'timeEnd',
+            'timeStamp', 'trace', 'warn'
+        ];
+        var length = methods.length;
+        var console = (window.console = window.console || {});
+
+        while (length--) {
+            method = methods[length];
+
+            // Only stub undefined methods.
+            if (!console[method]) {
+                console[method] = noop;
+            }
+        }
+    }());
+
 Most programming blogs are so fucking dull any possibility for an audience is lost somewhere in the first paragraph. It's been a long time since I've tried my hand at the pen but, I've been missing it very much lately. I didn't have a change of mind, I'm not writing poetry, I still write code as I'm sure will become immediately apparent. Where most people read novels or fiction I've become pretty narrow minded. I'm not particularly proud of this, but I've learned a lot, and what I've done is focus entirely on my field. All books, manuals, blog posts, magazine articles, bathroom scribblings, have all been programming related. Blah, *that* is fucking dull. I do vow to improve the breadth of my leisure reading but first let me tell you about this new blog.
 
 This is blog number five for me. Truly, I do enjoy writing. I swear. But, I have always become bored or at least lost focus after a while. Given my skill set until recently and being dependant on the most readily available technology, my technique for publishing was determined by the lame blogging community. I'm talking about the people that chronicle their every meal, photograph every stupid tree, and tweet every thought that comes to mind.
@@ -26,3 +48,7 @@ Having to deal with the shortcomings of blogging software, I was frustrated. I n
 + Hosting? Free, thanks @github.
 + Open Source. Even the bog itself is now open source.
 + [Markdown](http://daringfireball.net/projects/markdown/), sweet syntax, way more fun than html.
+
+***
+
+
