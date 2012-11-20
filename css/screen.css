@@ -1,4 +1,4 @@
-article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, time { display: block; }
 audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 html, button, input, select, textarea { font-family: sans-serif; color: #222; }
@@ -51,7 +51,7 @@ em { font-style: italic; }
 strong { font-weight: bold; color: #333; }
 small { font-size: 80%; }
 a:link, a:visited, a:hover, a:active { text-decoration: none; }
-blockquote { display: inline-block; padding-left: 18px; padding-bottom: 0; font-size: 15px; line-height: 25px; margin-left: 0; margin-top: 0; margin-bottom: 0; border-left: 10px solid #000; }
+blockquote { display: inline-block; padding-left: 18px; padding-bottom: 0; font-size: 15px; line-height: 25px; margin-left: 0; margin-top: 0; margin-bottom: 0; border-left: 10px solid #073C67; }
 article blockquote code ol { margin-left: 28px; }
 article blockquote pre code { margin-left: 0; }
 article blockquote h1, article blockquote h2, article blockquote h3, article blockquote h4 { margin-top: 15px; }
@@ -76,45 +76,46 @@ ol { list-style: decimal; }
 ul ul, ul ol, ol ol, ol ul { margin: 4px 0 5px 0; font-size: 90%; }
 ul ul li, ul ol li, ol ol li, ol ul li { margin-bottom: 6px; }
 li { line-height: 18px; margin-bottom: 12px; }
-code { border: 1px solid #d2d2d2; background-color: #eee; padding-left: 5px; padding-right: 5px; display: inline; padding-right: 5px; font-size: 13px; }
+code { background-color: #eee; padding-left: 5px; padding-right: 5px; display: inline; padding-right: 5px; font-size: 13px; }
 p code, li code { border-radius: 15px; -moz-border-radius: 15px; -webkit-border-radius: 15px; }
 code ol { padding-right: 0; margin: 0; padding: 0; }
 code li { padding: 0; padding-top: 3px; padding-bottom: 5px; padding-right: 0; margin: 0; }
 pre { border: none; }
-pre code { border: none; display: block; border: 1px solid #d2d2d2; background-color: #eee; padding-top: 10px; padding-bottom: 10px; font-size: 13px; margin-left: -50px; margin-right: 0; width: auto; border-left: none; border-right: none; padding-left: 50px; }
+pre code { border: none; display: block; background-color: #eee; padding-top: 10px; padding-bottom: 10px; font-size: 13px; margin-left: -50px; margin-right: 0; width: auto; border-left: none; border-right: none; padding-left: 50px; }
 pre code ol li { border: none; margin: 0; padding-top: 2px; padding-bottom: 2px; padding-left: 10px; }
 article pre code ul li, article pre code ol li { font-family: monospace, monospace; font-size: 15px; line-height: 16px; }
 article blockquote code ol { margin-left: 28px; }
 article blockquote pre code { margin-left: 0; }
 header#sidebar { width: 27%; padding-left: 1.5%; position: fixed; z-index: 1; min-height: 100%; min-width: 240px; }
-section#main { margin-left: 27%; min-width: 658px; position: relative; z-index: 10; background-color: #fff; border-left: 15px solid #e3e3e3; backface-visibility: visible; -webkit-backface-visibility: visible; -moz-backface-visibility: visible; min-height: 900px; z-index: 99999; }
-aside#logo { position: relative; background-color: #000; display: block; width: 110px; height: 110px; margin-left: 20px; margin-top: 30px; }
-aside#logo:hover { background-color: red;}
+section#main { margin-left: 27%; min-width: 658px; position: relative; z-index: 10; background-color: #fff; border-left: 5px solid #e3e3e3; backface-visibility: visible; -webkit-backface-visibility: visible; -moz-backface-visibility: visible; min-height: 900px; z-index: 99999; }
+aside#logo { position: relative; display: block; width: 110px; height: 110px; margin-left: 20px; margin-top: 30px; }
+aside#logo:hover { background-color: #073C67; -webkit-border-radius: 12px; border-radius: 12px; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; }
 aside#logo div { border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; background-color: #fff; width: 90px; height: 90px; text-indent: -9999px; margin: 0 auto; margin-top: 10px; clear: both; }
 aside#logo div a { display: block; clear: both; width: 78px; height: 78px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; margin: 0 auto; margin-top: 6px; background: #000 url(../img/bolt_large.png) center center no-repeat; background-size: 100% 100% }
 header#sidebar h1#blog_name { font-weight: bold; margin-top: 20px; margin-bottom: 10px; }
 header#sidebar h1#blog_name a { font-family: helvetica, sans-serif; font-weight: 900; font-size: 30px; line-height: 30px; border: none; padding: 0; display: block; color: #000; margin-left: 0; }
 header#sidebar li.author { margin: 0; padding: 0; }
 header#sidebar h2#author { font-weight: bold; margin-top: 0; margin-bottom: 0; padding: 0; margin: 0; max-width: none; }
-header#sidebar h2#author a { font-family: "freight-sans-pro", sans-serif; font-weight: 900; letter-spacing: 1px; font-size: 13px; line-height: 16px; border: none; padding: 0; display: block; color: #585858; margin-left: 0; margin-bottom: 10px; text-transform: uppercase; }
+header#sidebar h2#author a { font-family: helvetica, sans-serif; font-weight: 900; letter-spacing: 1px; font-size: 13px; line-height: 16px; border: none; padding: 0; display: block; color: #585858; margin-left: 0; margin-bottom: 10px; text-transform: uppercase; }
 header#sidebar h2#tagline { font-weight: 300; font-size: 16px; line-height: 23px; color: #585c60; -webkit-font-smoothing: antialiased; max-width: none; margin: 0; margin-bottom: 25px; }
-header#time { padding-left: 40px; padding-top: 40px; padding-bottom: 40px; }
-header#time time { display: block; position: relative; text-transform: uppercase; color: #000; font-weight: 700; font-size: 16px; letter-spacing: 1px; line-height: 33px; }
 ul#user_meta { clear: both; margin: 0; padding: 0; margin-left: 25px; width: 75%; }
 ul#user_meta li { display: block; clear: both; margin: 0; padding: 0; margin-bottom: 15px; }
 ul#user_meta li.blog_name { margin-bottom: 0; }
 ul#user_meta li.tagline { margin-top: 0; }
 ul#user_meta a { display: inline-block; font-size: 15px; line-height: 14px; border: 4px solid #eee; padding: 7px; padding-left: 15px; padding-right: 15px; color: #999; margin-left: -15px; font-weight: 600; position: relative; }
-ul#user_meta a:hover { color: red; border-color: red; }
-article.post { width: auto; display: block; position: relative; padding-left: 50px; padding-top: 40px; padding-bottom: 40px; border-top: 15px solid #e2e2e2; }
+ul#user_meta a:hover { color: #073C67; border-color: #073C67; }
+time { font-size: 11px; margin-top: -20px; }
+article.post { width: auto; display: block; position: relative; padding-left: 50px; padding-top: 40px; padding-bottom: 40px; border-top: 5px solid #e2e2e2; }
 article.post h2, article.post p { max-width: 500px; }
 article h2 { margin-top: 20px; }
 article h2 a:link, article h2 a:visited, article h2 a:active { color: #000; text-decoration: none; border-bottom: 1px solid #CCC; font-size: 20px; line-height: 28px; font-weight: 700; -webkit-font-smoothing: antialiased; }
 article h2 a:hover  { text-decoration: underline; }
+article h2 a.title { border: none; }
+article h2 a.title:hover { text-decoration: none; }
 article a:link, article a:visited, article a:hover, article a:active { text-decoration: none; border-bottom: 1px solid #ccc; border-bottom: 1px solid #ccc; }
 #employer { position: fixed; left: 25px; bottom: 30px; font-size: 15px; letter-spacing: 0; text-transform: uppercase; font-weight: 900; line-height: 15px; padding: 10px; height: 30px; z-index: 9999; }
-span.logo_square { position: relative; background-color: #000; display: inline-block; border-radius: 5px; width: 28px; height: 26px; margin-right: 5px; border: 1px solid #000; }
-span.logo_circle { position: relative; border: 2px solid #fff; border-radius: 50%; display: block; width: 14px; height: 14px; margin: 0 auto; margin-top: 4px; text-indent: -9999px; }
+span.logo_square { position: relative; background-color: #073C67; display: inline-block; border-radius: 5px; width: 28px; height: 26px; margin-right: 5px; border: 1px solid #000; }
+span.logo_circle { position: relative; background-color: #EF6C0E; border: 2px solid #fff; border-radius: 50%; display: block; width: 14px; height: 14px; margin: 0 auto; margin-top: 4px; text-indent: -9999px; }
 
 @media all and (device-width:768px) and (device-height:1024px), only all and (max-height:630px) {
   #sidebar { position: absolute; }
@@ -139,7 +140,7 @@ span.logo_circle { position: relative; border: 2px solid #fff; border-radius: 50
   header#sidebar h2#tagline { margin: 0 auto; padding: 0; max-width: 280px; margin-top: 10px; }
   section#main { margin: 0; padding: 0; border: none; display: block; width: auto; min-width: 0; margin-top: 15px; clear: both; background-color: #fff; position: absolute; }
   section#main article { width: auto; padding-left: 0; padding-top: 30px; padding-bottom: 30px; overflow: hidden; }
-  article p, article h2, article h1, article h3, article h4, article h5, article h6 { padding-right: 15px; padding-left: 20px; }
+  article p, article h2, article h1, article h3, article h4, article h5, article h6, time { padding-right: 15px; padding-left: 20px; }
   article hr { width: 50%; margin: 0 auto; margin-top: 35px; margin-bottom: 30px; }
   header#sidebar { min-height: 0; }
   article blockquote p, article blockquote h2, article blockquote h1, article blockquote h3, article blockquote h4, article blockquote h5, article blockquote h6 { padding-left: 10px; }

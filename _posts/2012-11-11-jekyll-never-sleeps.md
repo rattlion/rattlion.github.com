@@ -50,5 +50,3 @@ Having to deal with the shortcomings of blogging software, I was frustrated. I n
 + [Markdown](http://daringfireball.net/projects/markdown/), sweet syntax, way more fun than html.
 
 ***
-
-
