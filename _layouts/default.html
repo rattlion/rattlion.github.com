@@ -3,47 +3,81 @@
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
    <title>{{ page.title }}</title>
-   <meta name="author" content="Matt Ryan" />
+   <meta name="author" content="Matt Ryan @mrevd" />
    <link href="http://feeds.feedburner.com/mrevd" rel="alternate" title="Matt Ryan" type="application/atom+xml" />
-
-   <!-- Syntax Highlighting CSS -->
-   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
-
-   <!-- Main CSS -->
-   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+   <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic'>
+   <link rel="stylesheet" href="/css/style.css">
+   <link rel="stylesheet" href="/css/sunburst.css">
+   <link rel="stylesheet" href="/css/font-awesome.css">
 </head>
-<body>
+<body class="mrevd">
+  <!--[if lt IE 7]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+  <![endif]-->
 
-<div class="site">
-  <div class="title">
-    <a href="/">Matt Ryan</a>
-    <a class="extra" href="/">home</a>
-  </div>
-
-  {{ content }}
-
-  <div class="footer">
-    <div class="contact">
-      <p>
-        Matt Ryan<br />
-        m at mrevd dot me
-      </p>
-    </div>
-    <div class="contact">
-      <p>
-        <a href="http://github.com/mrevd/">github.com/mrevd</a><br />
-        <a href="http://twitter.com/mrevd/">twitter.com/mrevd</a><br />
-      </p>
-    </div>
-    <div class="rss">
-      <a href="http://feeds.feedburner.com/mrevd">
-        RSS
+  <header id="sidebar">
+    <aside id="logo" class="clearfix">
+      <div class="clearfix">
+        <a href="/">mrevd</a>
+      </div>
+    </aside>
+    <ul id="user_meta">
+      <li class="blog_name">
+        <h1 id="blog_name">
+          mrevd
+        </h1>
+      </li>
+      <li class="author">
+        <h2 id="author">
+          matt ryan
+        </h2>
+      </li>
+      <li class="tagline">
+        <h2 id="tagline">
+          "There's a frood who really knows where his towel is."
+        </h2>
+      </li>
+      <li class="link website">
+        <a href="http://github.com/mrevd">
+          <i class="icon-github"></i>
+          mrevd.github.com
+        </a>
+      </li>
+      <li class="link twitter">
+        <a href="http://twitter.com/mrevd">
+          <i class="icon-twitter"></i>
+          @mrevd
+        </a>
+      </li>
+      <li class="link feed">
+        <a href="/feed">
+          <i class="icon-rss"></i>
+          feed
+        </a>
+      </li>
+    </ul>
+    <aside id="employer">
+      <a href="http://sankynet.com">
+        <span class="logo_square"><span class="logo_circle">&nbsp;</span></span>&nbsp;<span class="sanky">EMPLOYER</span>
       </a>
-    </div>
-  </div>
-</div>
+    </aside>
+  </header>
 
-<a href="https://github.com/mrevd"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+  <section id="main">
+    {{ content }}
+  </section>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+  <script src="/js/plugins.js"></script>
+  <script src="/js/main.js"></script>
+
+  <script>
+    var _gaq=[['_setAccount','UA-36384574-1'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
 
 </body>
 </html>
