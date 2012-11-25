@@ -119,11 +119,7 @@ article a:link, article a:visited, article a:hover, article a:active { text-deco
 span.logo_square { position: relative; background-color: #073C67; display: inline-block; border-radius: 5px; width: 28px; height: 26px; margin-right: 5px; border: 1px solid #000; }
 span.logo_circle { position: relative; background-color: #EF6C0E; border: 2px solid #fff; border-radius: 50%; display: block; width: 14px; height: 14px; margin: 0 auto; margin-top: 4px; text-indent: -9999px; }
 
-@media all and (device-width:768px) and (device-height:1024px), only all and (max-height:630px) {
-  #sidebar { position: absolute; }
-  #employer { top: 700px; position: absolute; }
-}
-
+@media all and (device-width:768px) and (device-height:1024px), only all and (max-height:630px) { #sidebar { position: absolute; } }
 @media all and (max-width:630px) {
   body, html { min-width: 0; }
   #employer { top: 5px; right: 5px; left: auto; position: relative; }
