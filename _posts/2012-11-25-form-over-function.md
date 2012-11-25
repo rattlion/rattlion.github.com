@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Form V. Function"
+title: "Form v. Function"
 ---
 
 This is the fifth blog I've built for myself and the only one that still lives. Although this site is in its infancy I have a strong feeling this will take me far. The most difficult part of maintaining a blog, for me anyway, is surprisingly enough not actually writing the post. There will be grammatical errors, spelling mistakes, a lack of clarity in thought... that doesn't bother me. I'm not overly self-conscious about the quality of the writing found here. These days, I'm first and foremost a programmer. Some of my best writing is never actually read by a human but only experienced. I like that about my work. But I enjoy having another creative outlet and means for expression. That being said, even though I hope non-developers will find something interesting here I imagine most of the posts to be relating to my work in some way. Unfortunately, for the members of the aforementioned group this first post is entirely technical. The reason I have a good feeling about this go-around is because of the way the site is constructed.
@@ -19,7 +19,7 @@ The publishing part should be straight forward for anyone considering themselves
 
     $ git commit -m 'Post: Form V. Function' && git push
 
-Github not only offers free hosting, but allows users to publish [Jekyll](http://jekyllrb.com/) based blogs on a push and runs the auto-generation of the site converting it to static HTML. Pretty cool stuff, geek out and read the [ documentation ](https://github.com/mojombo/jekyll/wiki). The point is, with this setup it's actually fun to write again. One of the awesome parts about using Jekyll as my platform is that I can easily change the design and layout of the site. So if this does keep my inters it won't be too difficult to change. Yay! Hope you enjoyed this a bit, there's more to come.
+Github not only offers free hosting, but allows users to publish [Jekyll](http://jekyllrb.com/) based blogs on a push and runs the auto-generation of the site converting it to static HTML. Pretty cool stuff, geek out and read the [ documentation ](https://github.com/mojombo/jekyll/wiki). The point is, with this setup it's actually fun to write again. One of the awesome parts about using Jekyll as my platform is that I can easily change the design and layout of the site. So if this does keep my interest it won't be too difficult to change. Yay! Hope you enjoyed this a bit, there's more to come.
 
 
 
