@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Sharing Is Caring"
+---
+
+For a long time I've observed what seems to be a ridiculous problem within our field of work. At some point you've probably tried to send someone a large file, but were not able to conveniently do so by email. If you've been dealing with this problem for a while, you've most likely adapted or conceded to whichever overly complicated workflow the powers that be have imposed on us. But from the perspective of a technologist, this problem impedes my production, as I find myself frequently helping others and repeatedly offering the same advice for the same problem. If we just got the file there, it never really solved the problem- it actually made it worse. While the struggling user may have originally intended for herself and one other person to work on the original task, there would be at least three involved now that a third party would be tasked with the transport of the file. This is a terrible, egregious waste of everyone's time.
+
+After completing such a task one day, it became apparent that this was way more complicated than it had to be. So we tried to remedy this problem. We were not the first, and certainly not the last, to do so, but in our case only a custom solution resolved this matter. We decided to construct a web app that easily distributes content using email as the primary vehicle. But before this solution is discussed, let's consider the most common suggestions:
+
+1. Using a private remote server, log in via FTP and upload the file for later retrieval also via FTP.
+2. Use Dropbox, Google Drive, YouSendIt, etc.
+3. Put it on a thumb drive and contract a messenger service to physically deliver secure information.
+
+Option one and two suited our needs for a while but not without their complications. The first problem with the FTP solution is that before you can share files via FTP, you have to share the connection for FTP access. Additionally, the barrier to entry here may be steep, as it requires both parties to have an understanding of the technology backing this exchange, namely FTP. Solution number two depends on a third party vendor, and while Dropbox and Google Drive may be very reliable solutions, there could be an occasion when you simply don't have access to these accounts. Option number three is just silly, removing technology almost entirely from the equation and not really a solution. In these cases the sender may not be immediately aware of that fact that the recipient has actually received the information. Conversely, the recipient may not be immediately aware that they have been sent something. And finally, storage space and bandwidth can become an issue for people managing these options. As a sender of information, this can be painfully complicated. Why do we have to deal with all of this when we just want someone to see something right now? Our solution to this conundrum is Sanky Share. Let's consider the user experience from start to finish.
+
+1. Select your files.
+2. Choose your recipients.
+3. Provide a brief message explaining what the files are.
+4. Share the files.
+
+As far as the sender is concerned, it's as simple as these four steps. After this process is complete, our app takes over and a little magic happens. We take care of the hosting, so no need to worry about storage space. And we'll notify the recipients with a friendly email stating that a special delivery awaits them. There's also no need to authenticate or take a retina scan or submit blood samples – this too should be easy. The recipients will have up to two weeks to collect their delivery, which should be plenty of time for anything that needs to be shared right now.
+
+But we go a little further after the exchange is complete. We didn't just want to streamline the process of sharing information. We wanted to improve it. In the recipient notification, there is a link to download the file. When the link is clicked and the file is downloaded, we'll notify the sender that their delivery has been received and who received it. If something was sent to several people, a personalized notification will be sent for each recipient. Joy!
+
+We're immediately able to identify some benefits for both parties: There is virtually no barrier to entry. The complications of storage, retrieval, and notifications are removed from the equation. There’s no need for cleanup either, as the app automatically removes expired files. Plus, you no longer need a tech-savvy person to deliver the information. And it's easy to remember. Give it a try! share.sanky.info.
