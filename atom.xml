@@ -3,22 +3,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Matt Ryan : @mrevd</title>
- <link href="http://mrevd.me/atom.xml" rel="self"/>
- <link href="http://mrevd.me/"/>
+ <title>Matt Ryan : @rattlion</title>
+ <link href="http://rattlion.com/atom.xml" rel="self"/>
+ <link href="http://rattlion.com/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://mrevd.me/</id>
+ <id>http://rattlion.com/</id>
  <author>
    <name>Matt Ryan</name>
-   <email>m@mrevd.me</email>
+   <email>matt@rattlion.com</email>
  </author>
 
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://mrevd.me{{ post.url }}"/>
+   <link href="http://rattlion.com{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://mrevd.me{{ post.id }}</id>
+   <id>http://rattlion.com{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
