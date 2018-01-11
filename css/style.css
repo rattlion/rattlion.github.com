@@ -94,7 +94,7 @@ section#main h2 a:hover { color: #999; }
 aside#logo { position: relative; display: block; width: 110px; height: 110px; margin-left: 20px; margin-top: 30px; }
 aside#logo div { border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; background-color: #000; width: 90px; height: 90px; text-indent: -9999px; margin: 0 auto; margin-top: 10px; clear: both; }
 aside#logo div a { border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; display: block; clear: both; width: 82px; height: 82px; margin: 0 auto; margin-top: 4px; background: #fff url(../img/goggles-black.png) no-repeat scroll center 37%; background-size: 100% 50%; }
-aside#logo div a:hover { background: #ec008c url(../img/goggles-white.png) no-repeat scroll center 37%; background-size: 100% 50%; }
+aside#logo div a:hover { background: #000 url(../img/goggles-white.png) no-repeat scroll center 37%; background-size: 100% 50%; }
 header#sidebar h1#blog_name { font-weight: bold; margin-top: 20px; margin-bottom: 10px; }
 header#sidebar h1#blog_name a { font-family: helvetica, sans-serif; font-weight: 900; font-size: 30px; line-height: 30px; border: none; padding: 0; display: block; color: #000; margin-left: 0; }
 header#sidebar li.author { margin: 0; padding: 0; }
@@ -119,7 +119,7 @@ article a:link, article a:visited, article a:hover, article a:active { text-deco
 #employer { position: fixed; left: 25px; bottom: 30px; font-size: 15px; letter-spacing: 0; text-transform: uppercase; font-weight: 900; line-height: 15px; padding: 10px; height: 30px; z-index: 9999; }
 #employer a:link, #employer a:visited, #employer a:active { color: #999; }
 #employer a:hover { color: #000; }
-span.logo_square { position: relative; background-color: #ec008c; display: inline-block; border-radius: 5px; width: 28px; height: 26px; margin-right: 5px; border: 1px solid #000; }
+span.logo_square { position: relative; background-color: #000; display: inline-block; border-radius: 5px; width: 28px; height: 26px; margin-right: 5px; border: 1px solid #000; }
 span.logo_circle { position: relative; background-color: #fff; border: 2px solid #000; border-radius: 50%; display: block; width: 14px; height: 14px; margin: 0 auto; margin-top: 4px; text-indent: -9999px; }
 
 @media all and (device-width:768px) and (device-height:1024px), only all and (max-height:630px) { #sidebar { position: absolute; } }
