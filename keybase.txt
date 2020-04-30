@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/mattryan
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://rattlion.com
+  * I am mattryan (https://keybase.io/mattryan) on keybase.
+  * I have a public key ASCD0RhVnXnFthwSwpAFJ7gPbt1tSODMvNd2rx9tFSbL6Qo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012083d118559d79c5b61c12c2900527b80f6edd6d48e0ccbcd776af1f6d1526cbe90a",
+      "host": "keybase.io",
+      "kid": "012083d118559d79c5b61c12c2900527b80f6edd6d48e0ccbcd776af1f6d1526cbe90a",
+      "uid": "efac2341969ff6a02e28e9735e482219",
+      "username": "mattryan"
+    },
+    "merkle_root": {
+      "ctime": 1588269525,
+      "hash": "4ca1779ef0a78b6a8fe0b440d332db4aba2745648a77d69a7cf8c9e2c4900d107f88156adb326440ecda3e11ef00304a61b8bb69ff609d6e4767cadfbf33553f",
+      "hash_meta": "069c01f219266685082fa22ce809f5c2b302aea9eb4373dc545d2350d474a316",
+      "seqno": 16111519
+    },
+    "service": {
+      "entropy": "kDv5SQCm3RqhoKN9sMg/4fdd",
+      "hostname": "rattlion.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.4.2"
+  },
+  "ctime": 1588269556,
+  "expire_in": 504576000,
+  "prev": "9389c6e0a7ec6e02c603f03752571a404277573278f181b2a82fb30acb660ef9",
+  "seqno": 23,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgg9EYVZ15xbYcEsKQBSe4D27dbUjgzLzXdq8fbRUmy+kKp3BheWxvYWTESpcCF8Qgk4nG4KfsbgLGA/A3UlcaQEJ3VzJ48YGyqC+zCstmDvnEILEE76xl7BWgGfryJinpxHY9TpWh/Nf9e/1hrA1ieALjAgHCo3NpZ8RAmOljeKTV0lpg3kAg6slCq+VcSvIQOi3GHBU3uJQ9zSfMAw8STrkYY+zglMV/ScXH9z3ABNsaT/k9/3gEyfA/BqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIOKbx8MNJK5BJSHO5k+3C8tUUKQVQvL8mjqfGafmHJlVo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mattryan
+
+==================================================================
